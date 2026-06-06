@@ -1,4 +1,4 @@
-# VIP Performance Tracker
+<img width="924" height="937" alt="VPT History tab" src="https://github.com/user-attachments/assets/11416df4-b73e-42dc-ab76-67ec2b03191a" /># VIP Performance Tracker
 
 A client-side operations dashboard that turns a flat ticketing export (Zendesk, or any CSV) into a filterable, gamified view of agent productivity across markets, shifts and operations.
 
