@@ -1,4 +1,4 @@
-## VIP Performance Tracker
+## VIP Performance Tracker (Demo below)
 
 A client-side operations dashboard that turns a flat ticketing export (Zendesk, or any CSV) into a filterable, gamified view of agent productivity across markets, shifts and operations.
 
