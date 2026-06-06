@@ -33,7 +33,7 @@ It ships with a deterministic synthetic dataset (48 agents, 4 operations, 10 mar
 **Live:** https://sebastianvalenza.github.io/vip-performance-tracker/
 
 ![Overview — operation tiers and agent leaderboard](https://github.com/Sebastianvalenza/vip-performance-tracker/blob/main/VPT%20History%20tab.png)
-![Projection — month-to-date extrapolation](docs/projection.png)
+![History tab — Weekly and monthly performance](https://github.com/Sebastianvalenza/vip-performance-tracker/blob/main/VPT%20Overview.png)
 
 ## Impact
 
