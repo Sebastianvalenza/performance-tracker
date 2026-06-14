@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIP Performance Tracker</title>
+<title>Performance Tracker</title>
 <meta name="description" content="Operations performance dashboard — agent productivity, gamified tiers, projections and history. Runs fully client-side on synthetic data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -172,7 +172,7 @@ select.sel:focus{outline:none;border-color:var(--acid)}
 </style>
 </head>
 <body>
-<h2 class="sr-only">VIP Performance Tracker — operations dashboard showing agent productivity, gamified tiers, projections and historical trends from synthetic data.</h2>
+<h2 class="sr-only">Performance Tracker — operations dashboard showing agent productivity, gamified tiers, projections and historical trends from synthetic data.</h2>
 <div class="wrap">
 
   <!-- ===================== HEADER ===================== -->
@@ -180,7 +180,7 @@ select.sel:focus{outline:none;border-color:var(--acid)}
     <div class="brand">
       <div class="logo">V</div>
       <div>
-        <h1>VIP Performance Tracker</h1>
+        <h1>Performance Tracker</h1>
         <div class="sub" id="datasrclabel">Synthetic demo data · no real records</div>
       </div>
     </div>
@@ -234,7 +234,7 @@ select.sel:focus{outline:none;border-color:var(--acid)}
   <div id="view-history" class="hide"></div>
 
   <div class="footer">
-    // VIP Performance Tracker · client-side single-file app · runs on GitHub Pages with no backend<br>
+    // Performance Tracker · client-side single-file app · runs on GitHub Pages with no backend<br>
     // Tier model: agent 🥉800 / 🥈1200 / 🥇1600 monthly points · operation & team tier = lowest agent tier (floor) · operation bar fully gold only when every agent ≥ gold<br>
     // Points = public comments ×1 + internal comments ×0.25 · projection = linear month-to-date extrapolation · window: last 30 days unless noted
   </div>
@@ -266,7 +266,7 @@ select.sel:focus{outline:none;border-color:var(--acid)}
 <script>
 "use strict";
 /* ============================================================
-   VIP PERFORMANCE TRACKER
+   PERFORMANCE TRACKER
    Single-file operations dashboard. No backend, no credentials.
    Demo data is generated deterministically (seeded PRNG) so the
    GitHub Pages demo is reproducible. A CSV upload path replaces it.
@@ -898,7 +898,7 @@ function exportCSV(){
   });
   const blob=new Blob([lines.join('\n')],{type:'text/csv'});
   const url=URL.createObjectURL(blob);const a=document.createElement('a');
-  a.href=url;a.download='vip-performance-export.csv';a.click();URL.revokeObjectURL(url);
+  a.href=url;a.download='performance-export.csv';a.click();URL.revokeObjectURL(url);
 }
 
 /* ============================================================
