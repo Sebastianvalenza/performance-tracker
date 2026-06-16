@@ -32,7 +32,7 @@ Performance Tracker feeds the retention layer downstream. The **↓ QA → Custo
 
 ## Part of an operations ecosystem
 
-Performance Tracker is one of five control surfaces for a single multi-hub operation, built to follow one decision down the whole chain — *from the shift being covered to the cash being collected*:
+Performance Tracker is one of six control surfaces for a single multi-hub operation, built to follow one decision down the whole chain — *from the shift being covered to the cash being collected*:
 
 | Stage | Tool | The question it answers |
 |---|---|---|
